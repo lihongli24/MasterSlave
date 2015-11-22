@@ -1,0 +1,5 @@
+communication:
+  zookeeper:
+    zookeeperAddress: localhost:2181
+    listener:
+      path: /my/listenerPath
