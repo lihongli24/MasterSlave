@@ -1,5 +1,6 @@
 package com.li.common.communication.base;
 
+import net.sf.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,0 +1,5 @@
+communication:
+  zookeeper:
+    zookeeperAddress: 192.168.11.141:2181
+    listener:
+      path: /my/listenerPath
