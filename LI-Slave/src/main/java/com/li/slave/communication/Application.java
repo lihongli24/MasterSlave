@@ -1,12 +1,15 @@
 package com.li.slave.communication;
 
+import com.li.slave.communication.config.WebConfig;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.annotation.Import;
 
 /**
  * Created by lihongli on 15/11/22.
  */
 @SpringBootApplication
+@Import({WebConfig.class})
 public class Application {
 
 	/**
