@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 public class MasterStartBean {
 
 	@Value("${communication.zookeeper.zookeeperAddress}")
-	private String zookeeperAddress;
+	private static String zookeeperAddress;
 
 	@Value("${communication.zookeeper.listener.path}")
-	private String parentListenerPath;
+	private static String parentListenerPath;
 
 	public MasterStartBean(){
 		BaseZookeeperThread zookeeperThread = new BaseZookeeperThread(zookeeperAddress, parentListenerPath);
